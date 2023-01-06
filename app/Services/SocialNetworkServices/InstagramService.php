@@ -137,6 +137,7 @@ class InstagramService
 // oauth object
         $oAuth2Client = $facebook->getOAuth2Client();
 
+
         if (isset($_GET['code'])) { // get access token
             try {
                 $accessToken = $helper->getAccessToken();
