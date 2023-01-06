@@ -18,10 +18,10 @@ Route::get('/', function () {
 });
 
 
-Route::get('instagram', function () {
-    $result = (new App\Services\SocialNetworkServices\InstagramService())->publishContent();
-    dd($result);
-});
+//Route::get('instagram', function () {
+//    $result = (new App\Services\SocialNetworkServices\InstagramService())->publishContent();
+//    dd($result);
+//});
 
 Route::get('get-instagram-token', function () {
     $result = (new App\Services\SocialNetworkServices\InstagramService())->getAccessToken();
