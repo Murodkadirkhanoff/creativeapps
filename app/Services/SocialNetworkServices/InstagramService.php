@@ -20,7 +20,7 @@ class InstagramService
 
         // accessToken
         $accessToken = 'EAAJKShM1h8sBADoRNtFMGwez5MWyBae6jOznwSqRK6CFuLdrzJZBV0SHS0xWiyBZAsi48qv1nEqKtcU6OBnF6DE3doQHuhBShzqqe5jlkfdSlPJQGRIxpMHOPwQyy3ufaAW1uME6IkOEAAO78bkEFeKIF90gczzHhOX7Ftm6JGpWaHM8jZAe0BD4LjX9uiZA5uXCpRzd9dYdr03Yzy9Eb5PaAKer5bQIl2tibGICvhefAU6ehmyv';
-
+        $accessToken = '644631963731915|3HmTKpxm77U7_MA7ecNArhQ3yYU';
 
         // page id
         $pageId = '101952039378381';
@@ -118,7 +118,7 @@ class InstagramService
         define('FACEBOOK_APP_ID', '644631963731915');
         define('FACEBOOK_APP_SECRET', 'dfbb6e1d52255c8c5ce5ce6b3245c51e');
         define('ENDPOINT_BASE', 'https://graph.facebook.com/v15.0/');
-        define('FACEBOOK_REDIRECT_URI', 'https://creativeapps.loc/get-instagram-token');
+        define('FACEBOOK_REDIRECT_URI', 'https://creativeapps.uz/get-instagram-token');
 
 // facebook credentials array
         $creds = array(
