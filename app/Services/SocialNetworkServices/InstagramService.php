@@ -124,7 +124,7 @@ class InstagramService
         $creds = array(
             'app_id' => FACEBOOK_APP_ID,
             'app_secret' => FACEBOOK_APP_SECRET,
-            'default_graph_version' => 'v3.2',
+            'default_graph_version' => 'v15.0',
             'persistent_data_handler' => 'session'
         );
 
@@ -180,4 +180,6 @@ class InstagramService
         </a>';
         }
     }
+
+
 }
