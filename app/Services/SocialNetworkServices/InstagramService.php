@@ -139,8 +139,15 @@ class InstagramService
 
 
         if (isset($_GET['code'])) { // get access token
+            $accessToken = $helper->getAccessToken();
+
+            print_r($accessToken);
+            die();
             try {
                 $accessToken = $helper->getAccessToken();
+
+                print_r($accessToken);
+                die();
             } catch (FacebookResponseException $e) { // graph error
                 echo 'Graph returned an error ' . $e->getMessage();
             } catch (FacebookSDKException $e) { // validation error
