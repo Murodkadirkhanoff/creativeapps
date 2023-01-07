@@ -142,9 +142,9 @@ class InstagramService
             try {
                 $accessToken = $helper->getAccessToken();
             } catch (FacebookResponseException $e) { // graph error
-                echo 'Graph returned an error ' . $e->getMessage;
+                echo 'Graph returned an error ' . $e->getMessage();
             } catch (FacebookSDKException $e) { // validation error
-                echo 'Facebook SDK returned an error ' . $e->getMessage;
+                echo 'Facebook SDK returned an error ' . $e->getMessage();
             }
 
             if (!$accessToken->isLongLived()) { // exchange short for long
